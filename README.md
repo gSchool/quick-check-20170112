@@ -20,7 +20,8 @@ console.log(second_array) // [1, 2, 3]
 
 ```js
 function swap(arr1, arr2) {
-  // -- YOUR ANSWER HERE --
+  
+  
 }
 ```
 
