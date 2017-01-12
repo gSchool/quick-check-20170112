@@ -20,7 +20,17 @@ console.log(second_array) // [1, 2, 3]
 
 ```js
 function swap(arr1, arr2) {
-  // -- YOUR ANSWER HERE --
+ 
+  let bucket1 =arr1;
+  console.log("bucket1 " + bucket1)
+  arr1 =  arr2;
+  console.log("arr1" + arr1)
+  arr2=bucket1;
+  console.log("arr2" + arr2)
+  first_arr = arr1;
+  second_array = arr2;
+  return(arr1, arr2);
+
 }
 ```
 
@@ -37,6 +47,8 @@ console.log(third_array) // [4, 8, 3]
 
 ```js
 function reverse(array) {
-  // -- YOUR ANSWER HERE --
+ let blank_array = [];
+  swap(third_array, blank_array);
+  return blank_array.reverse;
 }
 ```
