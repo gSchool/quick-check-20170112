@@ -9,30 +9,34 @@ Paste your answer into the appropriate place below when you are done.
 
 e.g.
 ```js
-var arr1 = [1, 2, 3]
-var arr2 = [4, 5, 6]
+var first_arr = [1, 2, 3]
+var second_array = [4, 5, 6]
 
-swap(arr1, arr2)
+swap(first_arr, second_array)
 
-console.log(arr1) // [4, 5, 6]
-console.log(arr2) // [1, 2, 3]
+console.log(first_arr) // [4, 5, 6]
+console.log(second_array) // [1, 2, 3]
 ```
 
 ```js
-// -- YOUR ANSWER HERE --
+function swap(arr1, arr2) {
+  // -- YOUR ANSWER HERE --
+}
 ```
 
 ### Reverse an array in place.  In your solution, use the swap function that you wrote above
 
 e.g.
 ```js
-var arr3 = [3, 8, 4]
+var third_array = [3, 8, 4]
 
-console.log(arr3) // [3, 8, 4]
-reverse(arr3)
-console.log(arr3) // [4, 8, 3]
+console.log(third_array) // [3, 8, 4]
+reverse(third_array)
+console.log(third_array) // [4, 8, 3]
 ```
 
 ```js
-// -- YOUR ANSWER HERE --
+function reverse(array) {
+  // -- YOUR ANSWER HERE --
+}
 ```
