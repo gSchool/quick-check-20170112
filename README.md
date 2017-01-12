@@ -24,6 +24,23 @@ function swap(arr1, arr2) {
 }
 ```
 
+var first_arr = [1, 2, 3]
+var second_array = [4, 5, 6]
+
+swap(first_arr, second_array)
+
+function swap(a,b){
+  first_arr=[]
+  second_array=[]
+  for (var i = 0; i < a.length; i++) {
+    first_arr.push(b[i])
+    second_array.push(a[i])
+  }
+}
+
+console.log(first_arr) // [4, 5, 6]
+console.log(second_array) // [1, 2, 3]
+
 ### Write a function that reverses an array in place, using ONLY the swap function that you wrote above
 
 e.g.
