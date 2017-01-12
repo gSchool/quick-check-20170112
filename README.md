@@ -19,8 +19,10 @@ console.log(second_array) // [1, 2, 3]
 ```
 
 ```js
-function swap(arr1, arr2) {
-  // -- YOUR ANSWER HERE --
+function swap(arr1, arr2){
+  for(i=0;i<arr1.length;i++){
+    arr1[i]=arr2[i]
+  }
 }
 ```
 
