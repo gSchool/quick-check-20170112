@@ -23,6 +23,7 @@ function swap(arr1, arr2) {
   // -- YOUR ANSWER HERE --
 }
 ```
+I couldn't do and it made me feel kinda stupid.
 
 ### Write a function that reverses an array in place, using ONLY the swap function that you wrote above
 
