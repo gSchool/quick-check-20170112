@@ -30,12 +30,13 @@ var second_array = [4, 5, 6]
 swap(first_arr, second_array)
 
 function swap(a,b){
-  first_arr=[]
-  second_array=[]
   for (var i = 0; i < a.length; i++) {
-    first_arr.push(b[i])
-    second_array.push(a[i])
+    var num = a[i]
+    a[i]=b[i]
+    b[i]=num
   }
+  return a 
+  return b 
 }
 
 console.log(first_arr) // [4, 5, 6]
@@ -55,5 +56,10 @@ console.log(third_array) // [4, 8, 3]
 ```js
 function reverse(array) {
   // -- YOUR ANSWER HERE --
+    for (var i = 0; i < array.length; i++) {
+    var num = array[array.length -i-1]
+    array[i]=num
+  }  
+  return array
 }
 ```
