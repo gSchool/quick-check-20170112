@@ -1,5 +1,8 @@
 # Quick Check
 
+For this pop quiz, feel free to use your editor/repl.it to write your answer.
+Paste your answer into the appropriate place below when you are done.
+
 ## Standard: Solve problems that require swapping
 
 ### Write a function that swaps two arrays
@@ -28,4 +31,8 @@ var arr3 = [3, 8, 4]
 console.log(arr3) // [3, 8, 4]
 reverse(arr3)
 console.log(arr3) // [4, 8, 3]
+```
+
+```js
+// -- YOUR ANSWER HERE --
 ```
