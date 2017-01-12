@@ -24,7 +24,7 @@ function swap(arr1, arr2) {
 }
 ```
 
-### Reverse an array in place.  In your solution, use the swap function that you wrote above
+### Write a function that reverses an array in place.  In your solution, use the swap function that you wrote above
 
 e.g.
 ```js
