@@ -20,7 +20,10 @@ console.log(second_array) // [1, 2, 3]
 
 ```js
 function swap(arr1, arr2) {
-  // -- YOUR ANSWER HERE --
+  let one = arr1;
+  let two = arr2;
+  arr1 = two;
+  arr2 = one;
 }
 ```
 
@@ -37,6 +40,12 @@ console.log(third_array) // [4, 8, 3]
 
 ```js
 function reverse(array) {
-  // -- YOUR ANSWER HERE --
+  let regular = array;
+  let opposite = [];
+  for (let i = array.length-1; i > -1; i--) {
+    opposite.push(array[i]);
+  }
+  swap(regular, opposite)
+  return regular;
 }
 ```
