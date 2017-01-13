@@ -27,24 +27,34 @@ function swap(arr1, arr2) {
 function swap (first_arr,sec){
   var temp = []
   
+
   for (var x = 0; x < first_arr.length; x++){
-    
+
     temp[x] = first_arr[x]
+  
   }
   
+  // handle diffrent length
+  first_arr.length = sec.length
+
   
+
   for (var i = 0; i<first_arr.length; i++){
   first_arr[i] = sec[i]
-  
+
  }
- 
+
+// handle diffrent lengths
+  sec.length = temp.length
+
  for (var y = 0; y < sec.length; y++){
-    
+
     sec[y] = temp[y]
   }
- 
+
 
 }
+
 ```
 
 ### Write a function that reverses an array in place, using ONLY the swap function that you wrote above
