@@ -24,6 +24,20 @@ function swap(arr1, arr2) {
 }
 ```
 
+var first_arr = [1, 2, 3]
+var second_array = [4, 5, 6]
+
+swap(first_arr, second_array)
+
+function swap(arr1,arr2){
+    let array = arr1.concat(arr2)
+    arr1= array.splice(arr1.length,array.length)
+    arr2 = array 
+}
+
+console.log(first_arr) // [4, 5, 6]
+console.log(second_array) // [1, 2, 3]
+
 ### Write a function that reverses an array in place, using ONLY the swap function that you wrote above
 
 e.g.
@@ -38,5 +52,10 @@ console.log(third_array) // [4, 8, 3]
 ```js
 function reverse(array) {
   // -- YOUR ANSWER HERE --
+    for (var i = 0; i < array.length; i++) {
+    var num = array[array.length -i-1]
+    array[i]=num
+  }  
+  return array
 }
 ```
