@@ -29,14 +29,10 @@ var second_array = [4, 5, 6]
 
 swap(first_arr, second_array)
 
-function swap(a,b){
-  for (var i = 0; i < a.length; i++) {
-    var num = a[i]
-    a[i]=b[i]
-    b[i]=num
-  }
-  return a 
-  return b 
+function swap(arr1,arr2){
+    let array = arr1.concat(arr2)
+    arr1= array.splice(arr1.length,array.length)
+    arr2 = array 
 }
 
 console.log(first_arr) // [4, 5, 6]
