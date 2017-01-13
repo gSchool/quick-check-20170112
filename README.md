@@ -20,9 +20,12 @@ console.log(second_array) // [1, 2, 3]
 
 ```js
 function swap(arr1, arr2) {
-  let arr_holder = arr2;
-  second_array = arr1;
-  first_arr = arr_holder;
+  let arr_holder = [];
+  for (let a in arr1) {
+    arr_holder[a] = arr2[a];
+    arr2[a] = arr1[a];
+    arr1[a] = arr_holder[a];
+  }
 }
 ```
 
@@ -39,7 +42,8 @@ console.log(third_array) // [4, 8, 3]
 
 ```js
 function reverse(array) {
-  swap(array[0], [2]); //this doesn't work because the function references the array variables directly. I'm not sure how to manipulate them otherwise
-  third_array = array;
+  //let working_arr = array;
+  swap(array[0], [2]);
+  //third_array = array;
 }
 ```
