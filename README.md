@@ -21,6 +21,19 @@ console.log(second_array) // [1, 2, 3]
 ```js
 function swap(arr1, arr2) {
   // -- YOUR ANSWER HERE --
+    var bucket_one = [];
+  while(arr1.length >0) {
+    var hold = arr1.shift();
+    bucket_one.push(hold);
+  }
+   while(arr2.length >0) {
+    var hold = arr2.shift();
+    arr1.push(hold);
+  }
+    while(bucket_one.length >0) {
+    var hold = bucket_one.shift();
+    arr2.push(hold);
+  }
 }
 ```
 
